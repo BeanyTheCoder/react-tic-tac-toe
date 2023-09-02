@@ -1,5 +1,5 @@
-import Board from "./Board.jsx";
-import "./App.css";
+import Board from "./components/Board.jsx";
+import "./stylesheets/App.css";
 
 export default function App() {
   return (

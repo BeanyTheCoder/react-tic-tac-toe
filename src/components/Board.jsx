@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Square from "./Square.jsx";
-import "./App.css";
+import "./stylesheets/App.css";
 
 export default function Board() {
   let [state, setState] = useState(new Array(9).fill(""));

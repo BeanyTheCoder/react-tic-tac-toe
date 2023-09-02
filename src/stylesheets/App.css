@@ -15,6 +15,7 @@
 
 .container__header {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2.5em;
 }
 
 .container__winner {
@@ -30,7 +31,7 @@
 }
 
 .container__board__square {
-  width: 50px;
+  width: 75px;
   aspect-ratio: 1 / 1;
   border: 1px black solid;
   display: flex;
