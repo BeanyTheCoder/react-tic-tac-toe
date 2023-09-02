@@ -1,21 +1,20 @@
 import { useState } from "react";
 import Square from "./Square.jsx";
-import "./stylesheets/App.css";
+import "/src/stylesheets/App.css";
 
 export default function Board() {
   let [state, setState] = useState(new Array(9).fill(""));
-
   let [isXNext, setIsXNext] = useState(true);
 
   function handleState(pos) {
-    setState((prev) => {
-      if (prev[pos] || calculateWinner()) {
-        return prev;
+    setState((prevState) => {
+      if (prevState[pos] || calculateWinner()) {
+        return prevState;
       }
 
-      prev.splice(pos, 1, isXNext ? "X" : "O");
+      prevState.splice(pos, 1, isXNext ? "X" : "O");
 
-      return prev;
+      return prevState;
     });
 
     setIsXNext(!isXNext);
