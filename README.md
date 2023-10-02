@@ -1,4 +1,4 @@
-# React Tic-Tac-Toe game 🚀
+# React Tic-Tac-Toe game ❌⭕
 
 A simple tic tac toe game made using React.js
 
@@ -37,6 +37,10 @@ A simple tic tac toe game made using React.js
 ## Screenshots 📷
 
 ![image of tic-tac-toe board](./readme-images/board.png)
+
+## Links 🔗
+
+- Live site link: [here](https://beanythecoder.github.io/react-tic-tac-toe)
 
 ## Technologies Used 🛠️
 
